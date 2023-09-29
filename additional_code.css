@@ -1,0 +1,98 @@
+/* Codes made by Pandora #144118 and Moses #95222 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+
+/* REMOVE ICONS (message/gift/create trade/wishlist/view trades) */
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
+	font-size:0px;
+}   
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+	content:'Message';
+	font-size:18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3) {
+	font-size:0px;
+}   
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+	content:'Send Gift!';
+	font-size:18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5) {
+	font-size:0px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+	content:'Create Trade';
+	font-size:18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'View Wishlist';
+	font-size:14px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Trades';
+	font-size:14px;
+}
+
+/* REMOVE ICONS (refer a friend/wishlist) */
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'Refer a Friend';
+	font-size:18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Your Wishlist';
+	font-size:18px;
+}
+
+/* REMOVE ICON (block member) */
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+    font-size:0px;
+    
+}
+ 
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+    content:'Block Member';
+    font-size:14px;
+}
+
+/* REMOVE 'Member ID' */
+
+div.floatright > small {
+    display:none;
+}
+
+/* code by katie down here to remove white line from player info */
+
+table#player.table hr {
+    visibility: hidden !important;
+    display: none !important; 
+}
+
+table#player.table div.xlarge { 
+    margin-top: 10px !important; 
+}

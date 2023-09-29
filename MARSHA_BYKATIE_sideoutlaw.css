@@ -1,0 +1,843 @@
+/*
+  CSS by Katie (#106445).
+  Code for use by #431178 ONLY.
+  (Used and edited by Marsha for her side account #433491)
+
+  Marsha: If you're not Marsha, don't use this! > :c
+
+  Cave image code by Pandora #144118 and Kat #94329 
+*/
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* BACKGROUND */
+
+@media screen and (min-width: 601px){
+body {
+	background: url('https://i.ibb.co/56RYdWC/aug-duststorm-waifu2x-noise0-scale4x.png');
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #f2e1ca;}
+}
+
+div#fraProfileContent.hidden-xs {
+	color: #61473b !important;
+}
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.ibb.co/TYwZk7p/recolor204.png');
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: #d1c3b4;
+	border: none;
+	box-shadow: none;
+	border-radius: 10px;
+	color: #61473b !important;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: #e0cfbc;
+        border-right: none;
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+	background: #806d5b;
+	border: none;
+	border-top: none;
+	color: #f2e1ca;
+	border-radius: 10px;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: #61473b;
+	border-bottom: none;
+	border-radius: 10px;
+}
+
+button.navbar-toggle, button.navbar-toggle:hover {
+	background: #806d5b !important;
+        border: 1px solid #61473b !important;
+	border-radius: 10px;
+	color: #f2e1ca !important;    
+}
+
+div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
+	border: none;
+}
+
+div#bs-example-navbar-collapse-1.navbar-collapse.collapsing {
+	border: none;
+}
+
+.navbar-collapse collapsing {
+	border: none;
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #f2e1ca !important;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 25px;
+        border-radius: 10px;
+        transition: border-color .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: #ba9c75 !important;
+	border-bottom: none;
+	color: #f2e1ca !important;
+	border-radius: 10px;
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: #806d5b !important;
+        border: none;
+	border-radius: 10px;
+        color: #f2e1ca !important;
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #f2e1ca;
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "CSS by Katie (#106445)";
+        color: #f2e1ca;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100;
+    }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+
+/* BOOKMARK BUTTON */
+
+input.floatright, input.floatright:hover {
+	background: #ba9c75 !important;
+        border: none !important;
+	border-radius: 10px;
+        margin-top: 4px;
+	color: #f2e1ca !important;   
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button, button.button:hover {
+	background: #ba9c75;
+        border: none !important;
+	border-radius: 10px;
+        text-shadow: none !important;
+	color: #f2e1ca !important;
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: #806d5b;
+	border: none;
+	color: #f2e1ca;
+	border-radius: 10px !important;
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+        color: #61473b !important;
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+        margin-top: 20px !important;
+        text-shadow: 1px 1px #f2e1ca;
+}
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #61473b !important;
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #f2e1ca !important;
+	font-size: 26px !important;
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #61473b !important;
+        text-shadow: 0.5px 0.5px #f2e1ca;
+        font-size: 24px !important;
+        font-family: 'Josefin Sans', sans-serif;
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: #ba9c75 !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #f2e1ca !important;
+	border-radius: 10px;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: #8f7759;
+	color: #f2e1ca !important;
+	border-radius: 10px !important;
+}
+
+/* ENERGY BAR COLOR */
+
+.progress-bar {
+	background: #dab17c;
+	border: none !important;
+}
+
+.progress-bar-warning {
+	background: #61473b;
+	border: none !important;
+}
+
+.progress-bar-danger {
+	background: #806d5b;
+	border: none !important;
+}
+
+.progress-bar-success {
+	background: #835336;
+	border: none !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #f2e1ca !important;
+        text-shadow: none !important;
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: #ba9c75 !important;
+	border: none !important;
+	color: #f2e1ca !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #8f7759 !important;
+	border: none !important;
+	color: #f2e1ca !important;
+}
+
+.s-chat-message__pinned {
+	background: #806d5b !important;
+	color: #f2e1ca !important;
+	border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: #f2e1ca !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+button#label_currentChannel {
+	border: none !important;
+	background: #806d5b !important;
+	color: #f2e1ca !important;
+}
+
+
+div#fraChatChannelMenu.chatMenu-container {
+	background: #806d5b !important;
+	color: #f2e1ca !important;
+	border: none !important;
+}
+
+button.channelSwitcher {
+	background: #806d5b !important;
+	color: #f2e1ca !important;
+	border: none !important;
+}
+
+button.channelSwitcher.active {
+	background: #ba9c75 !important;
+	border: none !important;
+	color: #f2e1ca !important;
+}
+
+/* mention */
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention, .s-chat-message.hasContext {
+	background: #806d5b !important;
+	border: none !important;
+	color: #f2e1ca !important;
+}
+
+/* claim badge */
+.s-chat-message_claim {
+	background: #806d5b !important;
+	color: #f2e1ca !important;
+	border: none !important;
+}
+/* claim popout box stuff */
+#modalClaimBG {
+	background: rgba(172, 91, 34, 0.5);
+
+}
+/* main inner bit */
+#modalClaimList {
+	background: #ba9c75 !important;
+	color: #f2e1ca !important;
+	border: none !important;
+}
+
+/* header */
+#modalClaimList h3 {
+	background: #806d5b !important;
+	border: none !important;
+	color: #f2e1ca !important;
+}
+/* close button */
+#modalClaimList button.close {
+	color: #f2e1ca;
+}
+
+/* COMMENT BOX */
+
+div#commentBox, div#makeComment, div#commentErrors {
+        border-radius: 10px !important;
+        background: #ba9c75 !important; 
+	color: #f2e1ca !important;
+        border: none !important;
+}
+
+div#commentBox {
+	height: 100px !important;
+}
+
+
+img.floatleft.commentTag.clear {
+        border-radius: 10px !important;
+        border: none !important;
+}
+
+div.comment:nth-child(even) {
+        background: #ba9c75 !important; 
+	color: #f2e1ca !important;
+        border-bottom: none !important;
+}
+
+div.comment:nth-child(odd) {
+        background: #8f7759 !important; 
+	color: #f2e1ca !important;
+        border-bottom: none !important;
+}
+
+input#comment {
+        background: #ba9c75 !important; 
+	color: #f2e1ca !important;
+        border: none !important;
+}
+
+input#postComment {
+        background: #8f7759 !important; 
+	color: #f2e1ca !important;
+        border: none !important;
+}
+
+div#commentErrors {
+        background: #8f7759 !important; 
+	color: #f2e1ca !important;
+        border: none !important;
+}
+
+small.text-muted {
+	color: #f2e1ca !important;
+}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: #ba9c75;
+	border: none !important;
+	border-collapse: separate;
+        color: #f2e1ca !important;
+	border-radius: 10px;
+}
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: #61473b !important;
+	color: #f2e1ca !important;
+	border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+td.bottom a {
+        text-decoration: none !important;
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: #615345 !important;
+        color: #f2e1ca;
+	border-radius: 10px;
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: none;
+	border-radius: 10px !important;
+}
+
+td.right {
+	border-radius: 10px !important;
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important;
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid {
+	background: #806d5b;
+	border: none !important;
+	border-radius: 10px !important;
+	font-size: 12px;
+}
+
+.mound-grid {
+	background: #806d5b;
+	border: none !important;
+        border-radius: 10px !important;
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: #615345 !important;
+	color: #f2e1ca !important;
+	border: none !important;
+	border-radius: 10px !important
+}
+
+span.xsmall {
+        font-size: 12px;
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: #615345;
+	border: none;
+	border-radius: 10px !important;
+        font-size: 12px;
+}
+
+.feature h3, div.left h3 {
+        font-size: 23px !important;
+        color: #f2e1ca !important;
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: #8f7759;
+        border-radius: 10px;
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: #8f7759 !important;
+	border: none !important;
+	border-radius: 10px !important;
+	color: #f2e1ca !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: #61473b !important;
+	color: #f2e1ca !important;
+	border-radius: 10px !important;
+        font-size: 10px;
+}
+
+.item {
+	background: #8f7759 !important;
+	border: none !important;
+	border-radius: 10px !important;
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #615345 !important;
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #ebd5b7 !important;
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+	color: #f2e1ca !important;
+        text-shadow: none !important;
+        border: none !important;
+        font-size: 12px;
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #f2ca94 !important;
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+div#fraProfileContent.hidden-xs a {
+	color: #806d5b !important;
+} 
+
+a.xlarge {
+    font-size: 17px;
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #f2e1ca !important;
+}
+
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #d1c3b4;
+}
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #61473b;
+	border-radius: 10px;
+}
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 1;
+}
+
+table#player img {
+	opacity: 1;
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+        border: none;
+	margin-top: 14px; /* May need adjusting */
+	margin-left: 10px; /* May need adjusting */
+}
+
+table#player img {
+	border-radius: 0% !important;
+        border: none;
+	overflow: hidden;
+}
+
+* {
+	text-transform: lowercase;
+}
+
+/* IN-CAVE BACKGROUND */
+
+.lionImage>img {
+content: url('https://i.ibb.co/9pC4G7N/aaru.png')!important;
+}
+ 
+/* If you have a featured lion set then you'll want to use this one! ↴ */
+ 
+/* FEATURED LION BACKGROUND */
+.lionImage>div>img:first-child {
+content: url('https://i.ibb.co/9pC4G7N/aaru.png')!important;
+}
+
+/* CAVE / MOUND IMAGES */
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.ibb.co/Lxv3DRH/app-sepiamarks.png') !important;
+	width: 60px;
+	height: 60px;
+}
+
+a[href$="366699"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/SyTWGQG/aaru-edit.png') !important;
+	width: 260px;
+	height: 60px;
+}
+
+
+a[href$="374324"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/SyTWGQG/aaru-edit.png') !important;
+	width: 260px;
+	height: 60px;
+}
+
+
+a[href$="386083"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/SyTWGQG/aaru-edit.png') !important;
+	width: 260px;
+	height: 60px;
+}
+
+a[href$="lionoverview.php?id=433491"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://i.ibb.co/PNSHFLn/Dry-Palm-Leaf.png') !important;
+	width: 60px;
+	height: 60px;
+}
+
+a[href$="unsorted.php?id=433491"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://i.ibb.co/J7HtdHH/feather-owlcapeeagle.png') !important;
+	width: 60px;
+	height: 60px;
+}
+
+
+/* Mound(s) */ 
+/* .mound-grid img {
+	background: url("IMAGE URL");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+} */
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+
+
+/* BOXES CODES */
+
+/*  One single box */
+
+.scrollMedium {
+	background: rgba(255, 255, 255, 0.5);
+	width: 86.5%;
+	height: 200px;
+	/* border: 1px solid rgba(0, 0, 0, 0.5); */
+	padding: 0% 2% 2% 2%;
+	text-align: center;
+	overflow: auto;
+	margin: 2%;
+	border-radius: 10px;
+	color: #806d5b !important;
+}
+
+/*  Small single long box */
+
+.scrollLongMini {
+	background: rgba(255, 255, 255, 0.5);
+	width: 86.5%;
+	height: auto;
+	/* border: 1px solid rgba(0, 0, 0, 0.5); */
+	padding: 10px;
+	text-align: center;
+	overflow: auto;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+/*  Small single long box bigger */
+
+.scrollLongMini2 {
+	background: rgba(255, 255, 255, 0.5);
+	width: 86.5%;
+	height: 150px;
+	/* border: 1px solid rgba(0, 0, 0, 0.5); */
+	padding: 10px;
+	text-align: center;
+	overflow: auto;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+/*  Transparent container div.
+*/
+.boxcontainer {
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 250px;
+}
+
+/*
+  Two equal sized boxes - side by side.
+*/
+.scrollLeft {
+	background: rgba(255, 255, 255, 0.5);
+	width: 46%;
+	height: 175px;
+	/* border: 1px solid rgba(0, 0, 0, 0.4); */
+	padding: 0% 2% 2% 2%;
+	text-align: center;
+	overflow: auto;
+	float: left;
+	margin: 2%;
+	border-radius: 10px;
+}
+
+.scrollRight {
+	float: right;
+	background: rgba(255, 255, 255, 0.5);
+	width: 46%;
+	height: 175px;
+	/* border: 1px solid rgba(0, 0, 0, 0.4); */
+	padding: 0% 2% 2% 2%;
+	text-align: center;
+	overflow: auto;
+	float: left;
+	margin: 2%;
+	border-radius: 10px;
+}
+
+
+/*
+  One big and small sized boxes - side by side.
+*/
+.scrollLeft1 {
+	background: rgba(255, 255, 255, 0.5);
+	width: 60%;
+	height: 175px;
+	/* border: 1px solid rgba(0, 0, 0, 0.4); */
+	padding: 0% 2% 2% 2%;
+	text-align: center;
+	overflow: auto;
+	float: left;
+	margin: 2%;
+	border-radius: 10px;
+}
+
+.scrollRight1 {
+	float: right;
+	background: rgba(255, 255, 255, 0.5);
+	width: 32%;
+	height: 175px;
+	/* border: 1px solid rgba(0, 0, 0, 0.4); */
+	padding: 0% 2% 2% 2%;
+	text-align: center;
+	overflow: auto;
+	float: left;
+	margin: 2%;
+	border-radius: 10px;
+}
+
+/* HIDE CLAN BOX */
+
+table#clans.table {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+/* HIDE FRIEND LIST */
+
+table#allies.table {
+	display: none !important;
+	visibility: hidden !important;
+}
