@@ -645,21 +645,40 @@ div.cave-grid>img /* Pregnant Lionesses */ {
 }
 
 a[href$="366726"]>div.cave-grid>img {
-	content: url('https://i.ibb.co/B6csbLf/Namibian-Meadows-Day-smol.png') !important;
-	width: 260px;
-	height: 60px;
-}
-
-
-a[href$="366167"]>div.cave-grid>img {
-	content: url('https://i.ibb.co/B6csbLf/Namibian-Meadows-Day-smol.png') !important;
+	content: url('https://i.ibb.co/hdtWrmG/spring-chicks-smol.png') !important;
 	width: 260px;
 	height: 60px;
 }
 
 
 a[href$="363764"]>div.cave-grid>img {
-	content: url('https://i.ibb.co/B6csbLf/Namibian-Meadows-Day-smol.png') !important;
+	content: url('https://i.ibb.co/hdtWrmG/spring-chicks-smol.png') !important;
+	width: 260px;
+	height: 60px;
+}
+
+
+a[href$="366167"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/hdtWrmG/spring-chicks-smol.png') !important;
+	width: 260px;
+	height: 60px;
+}
+
+a[href$="393020"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/hdtWrmG/spring-chicks-smol.png') !important;
+	width: 260px;
+	height: 60px;
+}
+
+
+a[href$="393021"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/hdtWrmG/spring-chicks-smol.png') !important;
+	width: 260px;
+	height: 60px;
+}
+
+a[href$="393022"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/hdtWrmG/spring-chicks-smol.png') !important;
 	width: 260px;
 	height: 60px;
 }
